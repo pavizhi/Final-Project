@@ -1,0 +1,48 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.blue-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
+}
+
+/* Alerts Styling */
+h3#result {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+h3.success { color: green; }
+h3.error { color: red; }
