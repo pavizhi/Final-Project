@@ -132,9 +132,10 @@ The system provides real-time alerts through a web interface, displaying message
 The system architecture of the fig 5.1 clearly shows that the input is given then using the machine learning model the intrusion is detected and classified based on the protocol .After the detection of the intrusion the alert message is displayed in the web interface.
 
 ## Output
-
+## Home Page
 ![output](Picture1.png)
 
+## Detection Page
 ![output](Picture2.png)
 
 ![output](Picture3.png)
